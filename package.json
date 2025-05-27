@@ -1,0 +1,38 @@
+{
+  "author": "Ultra Mobile",
+  "main": "dist/index.js",
+  "name": "ultra-api",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "node esbuild.config.mjs --production",
+    "start": "node dist/index.js",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfalcon/ultra-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jfalcon/ultra-api/issues"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "ioredis": "^5.6.1",
+    "pg": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.15.21",
+    "esbuild": "^0.25.5",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10",
+    "ts-jest": "^29.3.4",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}

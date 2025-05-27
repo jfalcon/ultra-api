@@ -1,0 +1,6 @@
+{
+  "exec": "node esbuild.config.mjs && node dist/index.js",
+  "ext": "mjs,js,json",
+  "ignore": ["test", "node_modules"],
+  "watch": ["app"]
+}
