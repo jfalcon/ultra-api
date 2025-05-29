@@ -1,2 +1,2 @@
-# eventually tie this to a specific version once team agrees
+# eventually tie this to a specific version once team agrees on
 FROM redis:latest
